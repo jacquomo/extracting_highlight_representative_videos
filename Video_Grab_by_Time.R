@@ -1,3 +1,6 @@
+##This code is for extracting representative video snippet and highlight videos from video data annotated using EventMeasure software.
+##Code prepared by jacquomo.monk@utas.edu.au and justin.hulls@utas.edu.au
+
 library(tidyverse)
 library(readxl)
 library(lubridate)
