@@ -1,14 +1,17 @@
 ##This code is for extracting representative video snippet and highlight videos from video data annotated using EventMeasure software.
 ##Code prepared by jacquomo.monk@utas.edu.au and justin.hulls@utas.edu.au
 
+##Load relevant packages
 library(tidyverse)
 library(readxl)
 library(lubridate)
 
 
+
+##For extracting stills from BOSS data
 setwd('R:\\TAFI\\Data\\CERF\\BOSS Data\\202402_Flinders')
 
-#read file with the drop times
+#read file with the drop times. This is manually generated 
 clip_time <-read_xlsx("GIS/BOSS_Sites_with_Depth_All.xlsx")
 
 # convert the date and DateTime to a date type
